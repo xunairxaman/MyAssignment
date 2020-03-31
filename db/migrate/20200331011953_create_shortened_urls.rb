@@ -6,6 +6,7 @@ class CreateShortenedUrls < ActiveRecord::Migration
       t.integer :clicks
       t.string :sanitize_url
       t.timestamps null: false
+
     end
   end
 end
